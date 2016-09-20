@@ -1,0 +1,3656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+  dslVersion="1.0.0.0"
+  Id="36e76743-603b-4496-9a33-8d6e23aa7855"
+  name="cas_mediatheque" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="040f1065-7bdb-4ab2-8ea0-be546c5844a6"
+        name="personnel de la bibliotheque"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="91d24629-f5af-47f2-8c3b-d0957845f83f"
+            isDerived="false"
+            sourceEndRoleName="personnel de la bibliotheque"
+            targetEndRoleName="enregistrer un nouveau document"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="98a1a91b-c9dc-47b1-aa4e-ad26922aaaed"
+              LastKnownName="enregistrer un nouveau document"
+              LastKnownLocation="cas_mediatheque.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="484bd313-bdf4-437b-8412-fb826e0fb624"
+                  name="personnel de la bibliotheque"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="32e4ff92-263b-4fac-bb47-f478972d3544"
+                  name="enregistrer un nouveau document"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="2f4b81be-702b-42ed-908a-9dead09be2b5"
+            isDerived="false"
+            sourceEndRoleName="personnel de la bibliotheque"
+            targetEndRoleName="enregistrer un emprunt"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3bb7099d-aa10-41cc-bdb2-7ae9b6382ba7"
+              LastKnownName="enregistrer un emprunt"
+              LastKnownLocation="cas_mediatheque.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8631a09c-a9d2-4aef-835b-60c8c6e77ac2"
+                  name="personnel de la bibliotheque"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="21aa638a-ebad-4ce8-8afc-784c5b3d0088"
+                  name="enregistrer un emprunt"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="fbb6d624-e4ab-4c62-b71a-d0680711a6ea"
+            isDerived="false"
+            sourceEndRoleName="personnel de la bibliotheque"
+            targetEndRoleName="effectue les relances"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="55dfa36b-a19e-4785-807e-60dbc76d440e"
+              LastKnownName="effectue les relances"
+              LastKnownLocation="cas_mediatheque.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="200d7fb3-3aab-4d80-b032-3e50a58cfd95"
+                  name="personnel de la bibliotheque"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="52fbcaa2-b17d-43ae-82b9-4c55441bac83"
+                  name="effectue les relances"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4815308a-ef89-495f-a191-a58f0339fe50"
+            isDerived="false"
+            sourceEndRoleName="personnel de la bibliotheque"
+            targetEndRoleName="agir sur fiche lecteur"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e02251a3-6f27-4a7c-ad83-0a27c8016f63"
+              LastKnownName="agir sur fiche lecteur"
+              LastKnownLocation="cas_mediatheque.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b40723cb-93ac-4143-a058-a14fd0cc5687"
+                  name="personnel de la bibliotheque"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="060e7bf9-a63e-4efd-b359-fbf96a86e5c1"
+                  name="agir sur fiche lecteur"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="b44c04d8-4c30-450e-bca6-5c20dbb13dd0"
+        name="usager"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="1491ba57-02f9-49df-8c20-6d1c0c5ef5fb"
+            isDerived="false"
+            sourceEndRoleName="usager"
+            targetEndRoleName="consulter la liste des documents"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="087a8b2a-0111-4927-99ab-bbc07bb37ace"
+              LastKnownName="consulter la liste des documents"
+              LastKnownLocation="cas_mediatheque.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="586d903b-3911-4ec8-a88f-5ee5c28f2b05"
+                  name="usager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="85b05618-56b5-4da5-8b40-a1c2afcd60c0"
+                  name="consulter la liste des documents"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ab3ca61e-ba4c-4b1d-86bc-5f851e59b59c"
+            isDerived="false"
+            sourceEndRoleName="usager"
+            targetEndRoleName="effectuer un emprunt"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7285289e-c551-4421-8a67-c2fab4213178"
+              LastKnownLocation="cas_mediatheque.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="967b7e77-1cce-44a9-a2ed-3e56ea61b3b7"
+                  name="usager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e266e036-62e6-455e-b3a3-17fae6f28f46"
+                  name="effectuer un emprunt"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="2f6af5d0-aeb4-4ed7-acf2-14983c74cfbf"
+        name="benevoles"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="82a5ac92-ac08-4b3b-9b99-cf1c0f1cfe1e"
+            isDerived="false"
+            sourceEndRoleName="benevoles"
+            targetEndRoleName="enregistrer un emprunt"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3bb7099d-aa10-41cc-bdb2-7ae9b6382ba7"
+              LastKnownName="enregistrer un emprunt"
+              LastKnownLocation="cas_mediatheque.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2898a279-362c-4530-9bc4-dad8a052bde5"
+                  name="benevoles"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b3bd21c7-04d4-4cce-8907-369ecc54b24e"
+                  name="enregistrer un emprunt"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3bb7099d-aa10-41cc-bdb2-7ae9b6382ba7"
+        name="enregistrer un emprunt"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="087a8b2a-0111-4927-99ab-bbc07bb37ace"
+        name="consulter la liste des documents"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="98a1a91b-c9dc-47b1-aa4e-ad26922aaaed"
+        name="enregistrer un nouveau document"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="26e74404-a503-473a-9215-a54613d9ccf6">
+            <useCaseMoniker
+              Id="61391a8d-c55f-41cf-a300-e643c179019f"
+              LastKnownName="classement du nouveau document"
+              LastKnownLocation="cas_mediatheque.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7285289e-c551-4421-8a67-c2fab4213178"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="61391a8d-c55f-41cf-a300-e643c179019f"
+        name="classement du nouveau document"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="55dfa36b-a19e-4785-807e-60dbc76d440e"
+        name="effectue les relances"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="84a963e2-6c81-4497-a209-f87843bf7c78">
+            <useCaseMoniker
+              Id="3bb7099d-aa10-41cc-bdb2-7ae9b6382ba7"
+              LastKnownName="enregistrer un emprunt"
+              LastKnownLocation="cas_mediatheque.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="52398d73-641e-437d-9d76-020eeeb14a25"
+        name="UseCase2"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e02251a3-6f27-4a7c-ad83-0a27c8016f63"
+        name="agir sur fiche lecteur"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="5399c54e-dbad-47a8-a47d-8b3323c1f3f1"
+        name="Sequence1"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <ownedCommentsInternal>
+          <comment
+            Id="4e8e64c0-802a-4506-ba40-2e88ced82fe2">
+            <body>happy day</body>
+          </comment>
+          <comment
+            Id="4ce9d5d5-3d6c-4f44-868b-536bdadac90c">
+            <body>si fiche client inexistante</body>
+          </comment>
+          <comment
+            Id="6c7fcb1f-584b-4b48-804a-1f835f313ff1">
+            <body>si fiche client inexistante</body>
+          </comment>
+          <comment
+            Id="03a0e9c9-072b-4eb6-bc59-bc3dc33fc3ee">
+            <body>si fiche client inexistante</body>
+          </comment>
+          <comment
+            Id="c704ec6c-27dc-4198-979b-d20f7259ae70">
+            <body>si fiche client inexistante</body>
+          </comment>
+          <comment
+            Id="7961e384-b304-4bcb-ad11-224fc917c37d">
+            <body>happy day</body>
+          </comment>
+          <comment
+            Id="a499671d-f897-423f-9bff-b2d16f6a86fb">
+            <body>si fiche client ok mais pas eligible = pas d'emprunt</body>
+          </comment>
+          <comment
+            Id="c9595573-6565-47bd-937f-6d382704dc79">
+            <body>happy day
+</body>
+          </comment>
+          <comment
+            Id="0ebf80b8-4dad-44e4-aa62-4aed1edd171c">
+            <body>happy day
+</body>
+          </comment>
+          <comment
+            Id="77e1cd01-bfae-4d51-ad9f-a6eea799be8e">
+            <body>si fiche client ok mais produit indispo ou non empruntable
+</body>
+          </comment>
+        </ownedCommentsInternal>
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="29746685-b256-4df1-a1fa-abd95a788dc1"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="78dc789a-f746-4926-852f-3912613b3d43"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="16459548-9f9f-4c31-af7e-6b57e7b396ad"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="db22f445-6bb9-493b-95ba-4847d0d4dc4b"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c43d69a1-500c-4fe9-a7fa-5ad6dcfe0104"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="16459548-9f9f-4c31-af7e-6b57e7b396ad"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f43767ed-611a-42b9-9ece-a7ac3801e244"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="69321471-e3ad-4af2-9932-2549bd3bcda4"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="db22f445-6bb9-493b-95ba-4847d0d4dc4b"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c43d69a1-500c-4fe9-a7fa-5ad6dcfe0104"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="def5d806-612c-45fc-9a2a-8c0316dca7cb"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="78dc789a-f746-4926-852f-3912613b3d43"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="2e87745f-58a7-4e28-b611-e4c031c56397"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="6cf5188f-f789-40d1-b9ae-24aab139d90b"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="493ba639-c1e3-45ec-8fb3-0a0027dcd333"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="42cf33e9-4ca4-4070-9bfa-917d35e396e9"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="7f475b0f-037c-4609-bec0-c83b502af4b9"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="74fd1f8b-201a-49c9-b3b8-6bc8dca22e01"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="42cf33e9-4ca4-4070-9bfa-917d35e396e9"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="eb31730f-5087-466e-91f9-120db3c3beba"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="7f475b0f-037c-4609-bec0-c83b502af4b9"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="909ff150-4f0a-4632-b46d-10be727a8bd9"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="74fd1f8b-201a-49c9-b3b8-6bc8dca22e01"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="579efb4e-8506-47b9-9c83-f98ea2d8e1f9"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="493ba639-c1e3-45ec-8fb3-0a0027dcd333"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f547ae23-5486-49ef-badf-0a6c930ae556"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="923f3146-9b43-45a3-b2a3-012144f77479"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="a73225d7-8ac1-4a33-bb1d-3479307b1bf0"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="6c56567f-72f3-4479-a8c5-576ce2c87fcc"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="87f6abe8-00b6-459b-9fc4-dc6aa52154bf"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c8191080-b6f1-4e00-b224-04aab4237095"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="6c56567f-72f3-4479-a8c5-576ce2c87fcc"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="004babc7-a551-4a67-b7b1-ab5436223bf3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="87f6abe8-00b6-459b-9fc4-dc6aa52154bf"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5b84614a-965d-4ff8-9d53-bc5f4c3a24ca"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="bb1a8f2f-7982-472b-9696-58b47bf8f4e8"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c8191080-b6f1-4e00-b224-04aab4237095"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="a73225d7-8ac1-4a33-bb1d-3479307b1bf0"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="60576f7c-4e88-4720-a3e4-2a98b2c1e2b3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="34c63b4f-662c-409d-a57d-9232b4b3f744"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="95a97459-c1da-495f-aacd-815651a9cde2"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="e1c3e2d7-2f3c-46b2-87c3-898f9f606f51"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="37c5bba3-a561-4ce6-8b14-339a4f52bfe1"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="922ad2a1-6cf0-4933-9886-1f42996966ad"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="e1c3e2d7-2f3c-46b2-87c3-898f9f606f51"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="e7756a54-2e65-4746-bd99-3e1b8b4e390a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="37c5bba3-a561-4ce6-8b14-339a4f52bfe1"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="daf93c4c-7a6c-4d6a-a8b3-e93be8eb0ed9"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="bbba53ab-b757-4d2b-8add-866231e32a28"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="922ad2a1-6cf0-4933-9886-1f42996966ad"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="95a97459-c1da-495f-aacd-815651a9cde2"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="eda23ced-b143-42d9-939d-bf60905af38c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="369de50a-4ecc-4212-b4b2-c0d704f1fe34"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="d34b5b2c-70e0-44be-8f64-54ad8205064c"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="600cc3b5-88ab-422f-8342-9cee4c3aa88c"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="4b2a50f1-0946-4dde-9d18-34b48c59a149"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="53acbd2e-1cc9-487f-95bf-6abfdd491ffd"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="600cc3b5-88ab-422f-8342-9cee4c3aa88c"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="638719c6-aa76-463b-aef6-b66b2c05c719"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e0453486-3e3b-4aa6-84fd-8a0a8127fcf5"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4b2a50f1-0946-4dde-9d18-34b48c59a149"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="579d9697-fe1f-460b-83de-a2252fa06a22"
+            name="MessageOccurrenceSpecification22">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="53acbd2e-1cc9-487f-95bf-6abfdd491ffd"
+            name="MessageOccurrenceSpecification21">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="d34b5b2c-70e0-44be-8f64-54ad8205064c"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5791bf40-90aa-48d5-94bb-ac5b6ae4a059"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="42a37e1e-e988-40f6-a8b9-c4c7d8bf78ec"
+            name="BehaviorExecutionSpecification7">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="89c227ad-522d-4bfe-ba43-43a39adbf2af"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="89b2ec02-4fc7-4186-8315-44736dc93633"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="5bd11be1-4248-4202-bac2-1de08d36bc1b"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b329a525-8456-45f9-9114-6ef0224b3680"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="89b2ec02-4fc7-4186-8315-44736dc93633"
+            name="ExecutionOccurrenceSpecification13">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7283c1ab-3d49-4ddd-b873-9d2c21368bc3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="be5da638-5fe9-43db-bcd8-6d7909eaa5e0"
+            name="MessageOccurrenceSpecification23">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5bd11be1-4248-4202-bac2-1de08d36bc1b"
+            name="MessageOccurrenceSpecification24">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6d799249-6248-4522-8429-18ee4367d10a"
+            name="MessageOccurrenceSpecification26">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b329a525-8456-45f9-9114-6ef0224b3680"
+            name="MessageOccurrenceSpecification25">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="89c227ad-522d-4bfe-ba43-43a39adbf2af"
+            name="ExecutionOccurrenceSpecification14">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0b234f98-ce67-4142-8173-c52a1d39a533"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="cb5ca296-3b66-4af6-ae95-fb1c3f13b814"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="0c9043a0-a2cf-4ee1-83ea-f68ca904d37c"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="498f3c0a-c277-40ac-aa77-b40d3cfd1dcb"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="269d9383-3bd0-4643-b4a9-9544de528730"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="498f3c0a-c277-40ac-aa77-b40d3cfd1dcb"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="cd8c2f42-6c3c-48d6-bd73-2e1664a4ab50"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="269d9383-3bd0-4643-b4a9-9544de528730"
+            name="MessageOccurrenceSpecification28">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b2b7e6d2-1cca-4c9f-8005-3581f2315cd2"
+            name="MessageOccurrenceSpecification27">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="0c9043a0-a2cf-4ee1-83ea-f68ca904d37c"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="84f82be4-cb6c-4d7f-a641-ecb22648bc1b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <combinedFragment
+            Id="33379cb5-7b45-4fef-a0dd-19fecc8bbfc6"
+            name="CombinedFragment1"
+            interactionOperator="Alt"
+            customInteractionOperator="A repeter autant de fois que de ressources">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand
+                Id="ec8cffbc-3167-48ff-bbfd-ffe40c80f4ec"
+                name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker
+                    Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                    LastKnownName="personnel de la bibliotheque"
+                    LastKnownLocation="cas_mediatheque.uml" />
+                  <lifelineMoniker
+                    Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                    LastKnownName="programme"
+                    LastKnownLocation="cas_mediatheque.uml" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint
+                    Id="4b2b0173-fe4f-44cb-b9d1-24639001e49f">
+                    <maxInt>
+                      <literalString
+                        Id="84e1427e-8f83-4bb2-86d0-40055e2f1229"
+                        name="LiteralString1" />
+                    </maxInt>
+                    <minInt>
+                      <literalString
+                        Id="6c0595a4-979a-41da-a393-e3831a2697aa"
+                        name="LiteralString2" />
+                    </minInt>
+                  </interactionConstraint>
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker
+                    Id="f99e36d2-2194-44e7-8b4a-7a1b58c3bdbd"
+                    LastKnownName="OperandOccurrenceSpecification1"
+                    LastKnownLocation="cas_mediatheque.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="78d4e97e-8e59-4901-af2c-8717b942c4ec"
+                    LastKnownName="OperandOccurrenceSpecification2"
+                    LastKnownLocation="cas_mediatheque.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="9e1b2ae5-8da0-4136-9b68-31a9eaab4694"
+                    LastKnownName="OperandOccurrenceSpecification3"
+                    LastKnownLocation="cas_mediatheque.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="a3e3165b-7177-4b7d-8f21-d86bf8744144"
+                    LastKnownName="OperandOccurrenceSpecification4"
+                    LastKnownLocation="cas_mediatheque.uml" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification
+            Id="9e1b2ae5-8da0-4136-9b68-31a9eaab4694"
+            name="OperandOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="f99e36d2-2194-44e7-8b4a-7a1b58c3bdbd"
+            name="OperandOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="2b96b5a5-eac9-491b-a859-ef9ef8ee0879"
+            name="BehaviorExecutionSpecification9">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="c3fc669c-3a7b-4faa-978b-12aeb8d885fd"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="4fd57ae8-83e3-41ad-8e9c-fbf28336349a"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="9ce01d5a-cce6-43c3-bcc9-41886188491c"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="6c7cd416-2f13-40b2-b5e3-de90ce46208d"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="4fd57ae8-83e3-41ad-8e9c-fbf28336349a"
+            name="ExecutionOccurrenceSpecification17">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="801d2a82-a79f-41ee-b170-f050dc7e12a4"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f976b153-2756-4cbc-8166-e713fdbba6c0"
+            name="MessageOccurrenceSpecification29">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9ce01d5a-cce6-43c3-bcc9-41886188491c"
+            name="MessageOccurrenceSpecification30">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d5d7ed2a-e7ed-41a4-950c-fb86a85304e7"
+            name="MessageOccurrenceSpecification32">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6c7cd416-2f13-40b2-b5e3-de90ce46208d"
+            name="MessageOccurrenceSpecification31">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="c3fc669c-3a7b-4faa-978b-12aeb8d885fd"
+            name="ExecutionOccurrenceSpecification18">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8620ffdd-6b34-44a2-9459-e9399f5c72e4"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="92bd7366-687c-42b3-ae25-9acdab2795ea"
+            name="BehaviorExecutionSpecification10">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="c0d25511-ee08-4441-a8e1-03ce1b2c69dd"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="3945fed1-3f71-4c10-bab5-3a36116f89b0"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="1cb5f872-7461-4a3f-9453-b0f1268ff2a6"
+                LastKnownName="MessageOccurrenceSpecification34"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="85615826-4b7d-4741-bf73-f10860df0f8e"
+                LastKnownName="MessageOccurrenceSpecification35"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="3945fed1-3f71-4c10-bab5-3a36116f89b0"
+            name="ExecutionOccurrenceSpecification19">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8a769c01-57af-4799-b913-0882acf13336"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1cb5f872-7461-4a3f-9453-b0f1268ff2a6"
+            name="MessageOccurrenceSpecification34">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3515b4ef-6499-4257-98c6-1477b4336958"
+            name="MessageOccurrenceSpecification33">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="85615826-4b7d-4741-bf73-f10860df0f8e"
+            name="MessageOccurrenceSpecification35">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c2df5ba1-9b2f-49e0-ab73-06acfc9d2ff8"
+            name="MessageOccurrenceSpecification36">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="c0d25511-ee08-4441-a8e1-03ce1b2c69dd"
+            name="ExecutionOccurrenceSpecification20">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b70c3bca-6654-485d-b0e3-55e7a49762ec"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="a3e3165b-7177-4b7d-8f21-d86bf8744144"
+            name="OperandOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="78d4e97e-8e59-4901-af2c-8717b942c4ec"
+            name="OperandOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="05cc20b7-4687-4b84-8ed9-e0da701c985c"
+            name="BehaviorExecutionSpecification11">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="107917b6-8567-49c4-8504-7e0d0682c647"
+                LastKnownName="ExecutionOccurrenceSpecification22"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="a77d9403-28f9-4272-ad86-9323a6028a1a"
+                LastKnownName="ExecutionOccurrenceSpecification21"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="6672b733-3eb1-4efb-829a-ddaa5fb0f2fa"
+                LastKnownName="MessageOccurrenceSpecification38"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="a8278b74-60c9-4a0c-9d06-97d63992ea22"
+                LastKnownName="MessageOccurrenceSpecification39"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="a77d9403-28f9-4272-ad86-9323a6028a1a"
+            name="ExecutionOccurrenceSpecification21">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0bf649f8-94c6-4947-afcc-f9e91be2d573"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="07965509-354f-474e-9539-528a331e1b31"
+            name="MessageOccurrenceSpecification37">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6672b733-3eb1-4efb-829a-ddaa5fb0f2fa"
+            name="MessageOccurrenceSpecification38">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="17e7720e-83ed-4548-8ceb-9d35319591e7"
+            name="MessageOccurrenceSpecification40">
+            <covered>
+              <lifelineMoniker
+                Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a8278b74-60c9-4a0c-9d06-97d63992ea22"
+            name="MessageOccurrenceSpecification39">
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="107917b6-8567-49c4-8504-7e0d0682c647"
+            name="ExecutionOccurrenceSpecification22">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1cc366d3-f4b8-47f8-a2c7-018ecfa06346"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+                LastKnownName="programme"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="3199c02f-dd88-4d04-b9bf-9a04406098a7"
+            name="personnel de la bibliotheque"
+            isActor="true"
+            lifelineDisplayName="personnel de la bibliotheque">
+            <represents>
+              <propertyMoniker
+                Id="e648253f-07ce-40d4-a0e6-2b8db90fbf15"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="69321471-e3ad-4af2-9932-2549bd3bcda4"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="def5d806-612c-45fc-9a2a-8c0316dca7cb"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="909ff150-4f0a-4632-b46d-10be727a8bd9"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="579efb4e-8506-47b9-9c83-f98ea2d8e1f9"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5b84614a-965d-4ff8-9d53-bc5f4c3a24ca"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="bb1a8f2f-7982-472b-9696-58b47bf8f4e8"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="daf93c4c-7a6c-4d6a-a8b3-e93be8eb0ed9"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="bbba53ab-b757-4d2b-8add-866231e32a28"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e0453486-3e3b-4aa6-84fd-8a0a8127fcf5"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="579d9697-fe1f-460b-83de-a2252fa06a22"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="be5da638-5fe9-43db-bcd8-6d7909eaa5e0"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="6d799249-6248-4522-8429-18ee4367d10a"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="498f3c0a-c277-40ac-aa77-b40d3cfd1dcb"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="0c9043a0-a2cf-4ee1-83ea-f68ca904d37c"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="9e1b2ae5-8da0-4136-9b68-31a9eaab4694"
+                LastKnownName="OperandOccurrenceSpecification3"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f976b153-2756-4cbc-8166-e713fdbba6c0"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d5d7ed2a-e7ed-41a4-950c-fb86a85304e7"
+                LastKnownName="MessageOccurrenceSpecification32"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3515b4ef-6499-4257-98c6-1477b4336958"
+                LastKnownName="MessageOccurrenceSpecification33"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c2df5ba1-9b2f-49e0-ab73-06acfc9d2ff8"
+                LastKnownName="MessageOccurrenceSpecification36"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="a3e3165b-7177-4b7d-8f21-d86bf8744144"
+                LastKnownName="OperandOccurrenceSpecification4"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="07965509-354f-474e-9539-528a331e1b31"
+                LastKnownName="MessageOccurrenceSpecification37"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="17e7720e-83ed-4548-8ceb-9d35319591e7"
+                LastKnownName="MessageOccurrenceSpecification40"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="aeaefe54-208a-4a1b-a729-2a8d1530eb89"
+            name="programme"
+            isActor="false"
+            lifelineDisplayName="programme">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="16459548-9f9f-4c31-af7e-6b57e7b396ad"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="78dc789a-f746-4926-852f-3912613b3d43"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="42cf33e9-4ca4-4070-9bfa-917d35e396e9"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="493ba639-c1e3-45ec-8fb3-0a0027dcd333"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="6c56567f-72f3-4479-a8c5-576ce2c87fcc"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a73225d7-8ac1-4a33-bb1d-3479307b1bf0"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="e1c3e2d7-2f3c-46b2-87c3-898f9f606f51"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="95a97459-c1da-495f-aacd-815651a9cde2"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="600cc3b5-88ab-422f-8342-9cee4c3aa88c"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="d34b5b2c-70e0-44be-8f64-54ad8205064c"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="89b2ec02-4fc7-4186-8315-44736dc93633"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="89c227ad-522d-4bfe-ba43-43a39adbf2af"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b2b7e6d2-1cca-4c9f-8005-3581f2315cd2"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="f99e36d2-2194-44e7-8b4a-7a1b58c3bdbd"
+                LastKnownName="OperandOccurrenceSpecification1"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="4fd57ae8-83e3-41ad-8e9c-fbf28336349a"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c3fc669c-3a7b-4faa-978b-12aeb8d885fd"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="3945fed1-3f71-4c10-bab5-3a36116f89b0"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c0d25511-ee08-4441-a8e1-03ce1b2c69dd"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="78d4e97e-8e59-4901-af2c-8717b942c4ec"
+                LastKnownName="OperandOccurrenceSpecification2"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a77d9403-28f9-4272-ad86-9323a6028a1a"
+                LastKnownName="ExecutionOccurrenceSpecification21"
+                LastKnownLocation="cas_mediatheque.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="107917b6-8567-49c4-8504-7e0d0682c647"
+                LastKnownName="ExecutionOccurrenceSpecification22"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="fc84deea-2eaa-4168-acc6-e21496d0781c"
+            name="entre le numero client"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="69321471-e3ad-4af2-9932-2549bd3bcda4"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="db22f445-6bb9-493b-95ba-4847d0d4dc4b"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e2958f41-b477-4376-a089-d72d4272fdc9"
+            name="affiche la fiche client"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c43d69a1-500c-4fe9-a7fa-5ad6dcfe0104"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="def5d806-612c-45fc-9a2a-8c0316dca7cb"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="9e114964-4292-42d5-9c22-f97fff84140e"
+            name="entre le numero client"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="909ff150-4f0a-4632-b46d-10be727a8bd9"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="7f475b0f-037c-4609-bec0-c83b502af4b9"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="1b6873e7-de1e-4ca4-8aa4-f3ee55997ef5"
+            name="erreur numero client inexistant"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="74fd1f8b-201a-49c9-b3b8-6bc8dca22e01"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="579efb4e-8506-47b9-9c83-f98ea2d8e1f9"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="52ee2ab2-666d-4ef5-b5b4-17509b58b345"
+            name="agir sur fiche lecteur"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5b84614a-965d-4ff8-9d53-bc5f4c3a24ca"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="87f6abe8-00b6-459b-9fc4-dc6aa52154bf"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="ce39f5e4-ba31-4064-a0d5-8c8d1cf3824b"
+            name="saisissez la commande souhaitee (creation/edition/suppression) d'une fiche"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c8191080-b6f1-4e00-b224-04aab4237095"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="bb1a8f2f-7982-472b-9696-58b47bf8f4e8"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="bc8d1a2e-5935-49d3-8102-037c672face0"
+            name="creation d'une fiche"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="daf93c4c-7a6c-4d6a-a8b3-e93be8eb0ed9"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="37c5bba3-a561-4ce6-8b14-339a4f52bfe1"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="7ca40647-bf5f-4c84-a820-9d4a4bee276d"
+            name="entrez les informations clients"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="922ad2a1-6cf0-4933-9886-1f42996966ad"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="bbba53ab-b757-4d2b-8add-866231e32a28"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="7728d6b5-8cb1-477d-a353-d507d62a29ca"
+            name="informations complete"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e0453486-3e3b-4aa6-84fd-8a0a8127fcf5"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4b2a50f1-0946-4dde-9d18-34b48c59a149"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e9dd0bd8-96d2-46f6-8767-99c5e49e96f8"
+            name="fiche client validée"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="53acbd2e-1cc9-487f-95bf-6abfdd491ffd"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="579d9697-fe1f-460b-83de-a2252fa06a22"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="f65e3d3b-1382-48a1-baa9-588fd4d383e1"
+            name="lecteur eligible a un emprunt O/N"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="be5da638-5fe9-43db-bcd8-6d7909eaa5e0"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5bd11be1-4248-4202-bac2-1de08d36bc1b"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="07ea965a-40aa-4033-bdd9-03328933c653"
+            name="Oui"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b329a525-8456-45f9-9114-6ef0224b3680"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6d799249-6248-4522-8429-18ee4367d10a"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="9a9294e2-656c-43b5-8715-5b49961da074"
+            name="non"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b2b7e6d2-1cca-4c9f-8005-3581f2315cd2"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="269d9383-3bd0-4643-b4a9-9544de528730"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="2c423992-ed47-40ab-80d9-716fd810fe03"
+            name="ajout d'un emprunt"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f976b153-2756-4cbc-8166-e713fdbba6c0"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9ce01d5a-cce6-43c3-bcc9-41886188491c"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="7dfad6f9-f03a-45b9-a590-c85e79d4e71d"
+            name="fiche de l'emprunt"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6c7cd416-2f13-40b2-b5e3-de90ce46208d"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d5d7ed2a-e7ed-41a4-950c-fb86a85304e7"
+                LastKnownName="MessageOccurrenceSpecification32"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="8536a9b2-d9fc-4848-8e2b-e275382182ed"
+            name="information relatif a l'emprunt"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3515b4ef-6499-4257-98c6-1477b4336958"
+                LastKnownName="MessageOccurrenceSpecification33"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1cb5f872-7461-4a3f-9453-b0f1268ff2a6"
+                LastKnownName="MessageOccurrenceSpecification34"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="ffdb9fea-c92c-4147-9552-7c18dd1d907b"
+            name="emprunt valide"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="85615826-4b7d-4741-bf73-f10860df0f8e"
+                LastKnownName="MessageOccurrenceSpecification35"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c2df5ba1-9b2f-49e0-ab73-06acfc9d2ff8"
+                LastKnownName="MessageOccurrenceSpecification36"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e45b1813-6585-4498-b95d-38cfcf96d3e0"
+            name="information relatif a l'emprunt"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="07965509-354f-474e-9539-528a331e1b31"
+                LastKnownName="MessageOccurrenceSpecification37"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6672b733-3eb1-4efb-829a-ddaa5fb0f2fa"
+                LastKnownName="MessageOccurrenceSpecification38"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="cd6193aa-0a06-4fad-8ad2-44eb495e7a2f"
+            name="produit non dispo ou interdit a l'emprunt"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a8278b74-60c9-4a0c-9d06-97d63992ea22"
+                LastKnownName="MessageOccurrenceSpecification39"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="17e7720e-83ed-4548-8ceb-9d35319591e7"
+                LastKnownName="MessageOccurrenceSpecification40"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="e648253f-07ce-40d4-a0e6-2b8db90fbf15"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <actorMoniker
+                Id="040f1065-7bdb-4ab2-8ea0-be546c5844a6"
+                LastKnownName="personnel de la bibliotheque"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f43767ed-611a-42b9-9ece-a7ac3801e244"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="2e87745f-58a7-4e28-b611-e4c031c56397"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="eb31730f-5087-466e-91f9-120db3c3beba"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f547ae23-5486-49ef-badf-0a6c930ae556"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="004babc7-a551-4a67-b7b1-ab5436223bf3"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="60576f7c-4e88-4720-a3e4-2a98b2c1e2b3"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="e7756a54-2e65-4746-bd99-3e1b8b4e390a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="eda23ced-b143-42d9-939d-bf60905af38c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="638719c6-aa76-463b-aef6-b66b2c05c719"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5791bf40-90aa-48d5-94bb-ac5b6ae4a059"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7283c1ab-3d49-4ddd-b873-9d2c21368bc3"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0b234f98-ce67-4142-8173-c52a1d39a533"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="cd8c2f42-6c3c-48d6-bd73-2e1664a4ab50"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="84f82be4-cb6c-4d7f-a641-ecb22648bc1b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="801d2a82-a79f-41ee-b170-f050dc7e12a4"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8620ffdd-6b34-44a2-9459-e9399f5c72e4"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8a769c01-57af-4799-b913-0882acf13336"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b70c3bca-6654-485d-b0e3-55e7a49762ec"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0bf649f8-94c6-4947-afcc-f9e91be2d573"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1cc366d3-f4b8-47f8-a2c7-018ecfa06346"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="a302ce04-02c0-49d1-a12a-a0d18865d87a"
+        name="Activity1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <opaqueAction
+            Id="0073b1e8-eb59-48ca-8cda-3ff0d5a27ca3"
+            name="identification"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="690cdf25-aa1e-4c1c-a2c5-0d6557b8c523"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="8ccbca3c-6912-4db0-9cca-333c6ee42b69"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="8ccbca3c-6912-4db0-9cca-333c6ee42b69"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="dec1728d-0249-47f7-a1d3-055b97bb3282"
+                guard="Non Valide"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="0073b1e8-eb59-48ca-8cda-3ff0d5a27ca3"
+                  LastKnownName="identification"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="cb29fafa-db20-4e09-bd44-250be7311bf1"
+                guard="OK"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b97a094e-30b5-4f5e-907e-6c0be3f2c528"
+                  LastKnownName="fiche client"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="b97a094e-30b5-4f5e-907e-6c0be3f2c528"
+            name="fiche client"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="0b6d0dc9-0f31-4913-9b7a-3c81d12aa3fe"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ef66332c-759a-41fb-9fec-cdb1a8d2aaf7"
+                  LastKnownName="consultation"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="ec274536-83c5-413b-9aec-44e295dc942c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="800617d8-3dea-4544-a135-7b9d72345679"
+                  LastKnownName="creation"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <initialNode
+            Id="3445e4f3-2e67-4b80-9ad7-cee169773f90"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="56b5a8c9-b479-49b5-80c8-29093e8f57fa"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="0073b1e8-eb59-48ca-8cda-3ff0d5a27ca3"
+                  LastKnownName="identification"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="800617d8-3dea-4544-a135-7b9d72345679"
+            name="creation"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="792e9a4d-bfa7-4dc1-9fe1-ec3023c71f67"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="8a6dd84f-13d5-45db-ba41-d76bf5f0678b"
+                  LastKnownName="Join1"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="ef66332c-759a-41fb-9fec-cdb1a8d2aaf7"
+            name="consultation"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="053969c2-592b-4ee5-b857-786d2098c5cf"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="50a59ea1-9085-4b83-96f3-faea969eaa74"
+                  LastKnownName="lecteur eligible"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="50a59ea1-9085-4b83-96f3-faea969eaa74"
+            name="lecteur eligible"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="a7ff7da1-96c2-4977-b660-1a64eb7351f0"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="f438b476-5462-4325-9375-b05ed100706f"
+                  LastKnownName="Decision2"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="f438b476-5462-4325-9375-b05ed100706f"
+            name="Decision2"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="94810542-42c0-4e6c-90ec-be5c933ef014"
+                guard="non valide"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="50a59ea1-9085-4b83-96f3-faea969eaa74"
+                  LastKnownName="lecteur eligible"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="bae78863-afb9-44ef-9a22-33ead08f3343"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="8a6dd84f-13d5-45db-ba41-d76bf5f0678b"
+                  LastKnownName="Join1"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <joinNode
+            Id="8a6dd84f-13d5-45db-ba41-d76bf5f0678b"
+            name="Join1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="300c1bb9-4443-4808-a044-a1649abc89a7"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="db6fd3db-8da3-40cb-9f4d-a64fc850e479"
+                  LastKnownName="creer un emprunt"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+          <opaqueAction
+            Id="db6fd3db-8da3-40cb-9f4d-a64fc850e479"
+            name="creer un emprunt"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5b016b16-a3f2-4408-aad7-cc6c7e20be6c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="00e96d21-9d11-4bc7-8af5-01db488efa43"
+                  LastKnownName="enregistrer un emprunt"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="00e96d21-9d11-4bc7-8af5-01db488efa43"
+            name="enregistrer un emprunt"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1ec4ff92-d681-49dc-88d1-bc24914f6682"
+                guard="ok"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="044fa3f1-46f3-49ac-9360-27e093fa1c8c"
+                  LastKnownName="Decision3"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="044fa3f1-46f3-49ac-9360-27e093fa1c8c"
+            name="Decision3"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="af41f39e-ee4d-4ecf-942c-73b609d478af"
+                guard="produit non dispo"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="00e96d21-9d11-4bc7-8af5-01db488efa43"
+                  LastKnownName="enregistrer un emprunt"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="c800469a-139f-4c10-8908-867b4741ce32"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e7f8a768-d338-4d45-bfc7-5de8c03971b6"
+                  LastKnownName="conditions respectees"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="a147c5dd-0a98-4e66-800d-009756b22257"
+                guard="retour si deuxieme emprunt"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="db6fd3db-8da3-40cb-9f4d-a64fc850e479"
+                  LastKnownName="creer un emprunt"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="e7f8a768-d338-4d45-bfc7-5de8c03971b6"
+            name="conditions respectees"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="dea3a644-0301-4be4-9e6e-c554bd93a567"
+                guard="ok"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="a1340903-61f5-4f81-8693-ff3fe8fba011"
+                  LastKnownName="Decision4"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="a1340903-61f5-4f81-8693-ff3fe8fba011"
+            name="Decision4"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f60d2e8d-76fd-4b2c-9bee-250e3939775a"
+                guard="carte lecteur / caution"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e7f8a768-d338-4d45-bfc7-5de8c03971b6"
+                  LastKnownName="conditions respectees"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="314f10ef-30f5-4ee1-92bb-b3fde5b0a5b9"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="122e4b75-3198-47a3-ba62-2c80167675c6"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <activityFinalNode
+            Id="122e4b75-3198-47a3-ba62-2c80167675c6"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="d3ecc4a6-c9b1-4c94-a248-e88916674842"
+        name="cylce_de_vie_d_un_doc"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="35c70bad-ecbb-48e4-a232-c56364511d0e"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="a9aa33ba-e9a0-4678-b253-c0170cd0ee3a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="a33df28a-53ad-4d90-9a09-bb83b9e3b0e6"
+                  LastKnownName="achat du document"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="a33df28a-53ad-4d90-9a09-bb83b9e3b0e6"
+            name="achat du document"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="8615a51d-9c59-45d7-a668-48d066ff057b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="3ab1f90f-d05e-4e66-b680-3eff39c2aaa7"
+                  LastKnownName="document mis en rayon et numerote"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="3ab1f90f-d05e-4e66-b680-3eff39c2aaa7"
+            name="document mis en rayon et numerote"
+            isLeaf="false">
+            <objectFlowTargets>
+              <objectFlow
+                Id="a0193f06-6ad3-4b0d-b042-b9890ee2a250"
+                isLeaf="false"
+                isMulticast="false"
+                isMultireceive="false">
+                <objectNodeMoniker
+                  Id="8370315b-9587-4efa-aad4-2d21ad02dfa0"
+                  LastKnownName="document emprunte"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </objectFlow>
+              <objectFlow
+                Id="deb5b724-5122-455a-b8db-8617d1192732"
+                isLeaf="false"
+                isMulticast="false"
+                isMultireceive="false">
+                <objectNodeMoniker
+                  Id="599675e4-74e9-4bd4-aac4-ff8ab3e96cd0"
+                  LastKnownName="document perdu"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </objectFlow>
+              <objectFlow
+                Id="77b09e47-5a07-41ee-8f42-a40dd34c4dba"
+                isLeaf="false"
+                isMulticast="false"
+                isMultireceive="false">
+                <objectNodeMoniker
+                  Id="6fd0aa96-68b4-463d-a05d-195d9527d688"
+                  LastKnownName="document volé"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </objectFlow>
+            </objectFlowTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="bcd98dc7-e949-498d-af3c-289e30b99c0a"
+            name="retour a la bibliotheque"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ff436afb-6d4a-49c0-b5e6-056437a08ecd"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="c3eda0b0-32d3-4ca0-a3c4-a5ae2d1ae3c8"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="c3eda0b0-32d3-4ca0-a3c4-a5ae2d1ae3c8"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <objectNode
+            Id="599675e4-74e9-4bd4-aac4-ff8ab3e96cd0"
+            name="document perdu"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="2d93ab03-dfa7-4689-b3a7-67db70be024a"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <objectNode
+            Id="6fd0aa96-68b4-463d-a05d-195d9527d688"
+            name="document volé"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="987147fd-3137-4edb-9abd-3a657ad1bcc1"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <objectNode
+            Id="8370315b-9587-4efa-aad4-2d21ad02dfa0"
+            name="document emprunte"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <objectFlowTargets>
+              <objectFlow
+                Id="7d86dcac-3833-4bec-9e06-8515ff6b6d4a"
+                isLeaf="false"
+                isMulticast="false"
+                isMultireceive="false">
+                <opaqueActionMoniker
+                  Id="bcd98dc7-e949-498d-af3c-289e30b99c0a"
+                  LastKnownName="retour a la bibliotheque"
+                  LastKnownLocation="cas_mediatheque.uml" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger
+                Id="c2269d5d-c63d-412a-905c-39e4d597c2d5"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="d74bf903-ad85-4baa-b7c4-8b668d6db77a"
+        name="Enumeration1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8411a83c-b7ee-4c1d-b9a5-4f63fb7425e4"
+        LastKnownName="Package1"
+        LastKnownLocation="Package_1023.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="76ad0f3f-ff2d-4447-b143-371437bfb339"
+        name="personnel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="7660e057-bcd6-4ca0-974e-e44e7a0c936f"
+            isDerived="false"
+            sourceEndRoleName="personnel"
+            targetEndRoleName="gerer"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="9f938bdb-733c-4b1b-8ffc-e1a0a49b4edf"
+              LastKnownName="gerer"
+              LastKnownLocation="cas_mediatheque.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3de053bd-0ee0-4d24-ba50-f81fab33cee7"
+                  name="personnel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="da5fa28e-2a96-4313-9877-38c3f80f1ce0"
+                  name="gerer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d3a8ef70-a5ce-48f8-ac10-dabead22643a"
+            isDerived="false"
+            sourceEndRoleName="personnel"
+            targetEndRoleName="document"
+            isLeaf="false"
+            name="gerer"
+            isAbstract="false">
+            <classMoniker
+              Id="094abc0a-8a79-4c3e-a50d-cbc9e8a427f0"
+              LastKnownName="document"
+              LastKnownLocation="cas_mediatheque.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4bb86d81-2080-473b-bff0-9896268a85cb"
+                  name="personnel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="3d0fa876-1f1b-422b-bfa1-f16a3a75e540"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="9821c463-2329-48d5-96c0-6bc37a33aad8"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="565ab1c5-c8c1-424b-8a75-1d621095bb52"
+                  name="document"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="809c1f63-08ef-4c79-a2b6-e5dc6d9ff035"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c59040d5-2ad3-4b0c-98e5-330655cc3fee"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="35f4b1de-a172-45dd-bb50-0cb6f14d0ec5"
+            isDerived="false"
+            sourceEndRoleName="personnel"
+            targetEndRoleName="emprunt"
+            isLeaf="false"
+            name="s'occuper"
+            isAbstract="false">
+            <classMoniker
+              Id="10a913c6-8151-4a68-9dda-c0253933f23f"
+              LastKnownName="emprunt"
+              LastKnownLocation="cas_mediatheque.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="edcfe43c-26c3-4ae2-8a41-23e6a25386d7"
+                  name="personnel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e9781be7-d904-4c5c-9920-cd73bbc15e96"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ec76ef80-44a6-4ec4-bd59-2ecb4545ab09"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="eeacf9b8-81af-4bcf-ac5a-7175d043e488"
+                  name="emprunt"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="bb17c821-a361-4015-b127-890c23867189"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="bac53bf0-573c-4d6a-a25a-cd4b951997ec"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="4f977a05-e49c-4a8b-8848-35716b619290"
+            name="type de contrat"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="6c2ec3d5-a8b1-46bf-8342-360979047978"
+                LastKnownName="bool"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1778f892-570f-43f9-af64-74ca654c35d2"
+            name="NomDuPersonnel"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7d2ffa83-6208-47b6-9530-5bcbf0c04fc2"
+            name="PrenomDuPersonnel"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e0fee601-9c20-4d94-908c-4ce55f3c12a7"
+            name="IdentifiantDuPersonnel"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5bdcb524-19fb-4069-9a4d-67cb022ec3f5"
+            name="AdresseDuPersonnel"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="64902925-ea7e-45ec-8470-ca4ee7c14057"
+            name="CodePostaleDuPersonnel"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="59cab34f-fcc4-4b94-a41d-17708424aaab"
+            name="TelephoneDuPersonnel"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="fc8bbcf5-a07c-4312-9735-7cbf32a9b1f8"
+            name="ajouter un document"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="60b26a68-200a-4948-a17f-6dc03d9ec45f"
+            name="creer une fiche client"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="96bad1ce-5f07-4e79-83c3-04d010d70d64"
+            name="creer un emprunt"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="60cdc3d9-06de-4960-9f57-1402a4aef7a2"
+            name="supprimer un document"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="23713619-6f0d-47da-bdf9-ca9846c8ed6b"
+        name="lecteur"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="476b649e-0d00-4d4e-927d-abac3d94091e"
+            isDerived="false"
+            sourceEndRoleName="lecteur"
+            targetEndRoleName="emprunter"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="1955a7ef-ed36-4aef-ad32-3f973f51fe10"
+              LastKnownName="emprunter"
+              LastKnownLocation="cas_mediatheque.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="44a42e1e-6606-4148-b4f1-31b496291024"
+                  name="lecteur"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b3a1cd0a-f27b-432b-bc50-c50ee21c99e7"
+                  name="emprunter"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="11055d07-932f-43b1-bd7e-dd943f43b3f1"
+            isDerived="false"
+            sourceEndRoleName="lecteur"
+            targetEndRoleName="emprunt"
+            isLeaf="false"
+            name="faire"
+            isAbstract="false">
+            <classMoniker
+              Id="10a913c6-8151-4a68-9dda-c0253933f23f"
+              LastKnownName="emprunt"
+              LastKnownLocation="cas_mediatheque.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b93fb7d1-a60a-4cbd-8ed3-a713b5f4447a"
+                  name="lecteur"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="48ca05ab-13fa-407e-a85b-e6527c7a146a"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="f3ff42cf-e3af-4cf0-a889-588ed2b61f99"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="32a91d95-4419-4725-89cf-5fe9d9bae8d9"
+                  name="emprunt"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d0466d18-7066-4e4f-a7d6-46538ba30bff"
+                      name="Lower"
+                      value="5" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="1cd27c27-325d-43a1-bf0f-54a4b777d8d2"
+                      name="Upper"
+                      value="5" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="364f5a8a-a748-40ee-8894-6d5c8f050933"
+            name="NomDuLecteur"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="519a6bfb-b576-4828-a6f2-e32f6a77236a"
+            name="PrenomDuLecteur"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e2d6e530-04c7-4834-bf0f-2b639b47b195"
+            name="AdresseDuLecteur"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8a524311-7ba1-4f7a-a990-65c3cf1324f3"
+            name="TelephoneDuLecteur"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="094abc0a-8a79-4c3e-a50d-cbc9e8a427f0"
+        name="document"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="da894cb2-0894-4190-b1fd-62673985912e"
+            name="TypeDeDocument"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0492570b-be9e-4cd4-bc86-011e4bb59270"
+            name="IdentifiantDuDocument"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="cas_mediatheque.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2b96cd0c-4226-4974-ac50-c8f57011b389"
+            name="emprunter"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="0c8c023e-be0f-47bc-90bb-a370ae60f152"
+            name="detruit"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="269d0d40-90cb-4e8c-bb25-eb72d5ae0ac4"
+            name="voler"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="8f66d3f1-d50c-45af-bb89-55d01b27eeb7"
+            name="ranger"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="6c2ec3d5-a8b1-46bf-8342-360979047978"
+        name="bool" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="d043dc1a-2eba-4b46-b30a-93a004a220ec"
+        name="int" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="8cfb85da-1191-46c6-9acc-5bb8235b59e7"
+        name="varchar" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="27b5a777-3893-4e6c-8c23-322c1dc3e30d"
+        name="Int" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="032eb7f4-8706-4cdf-bac0-df1f1ae4805e"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="26ef2dfc-9134-482a-ad08-d45eb055fc16"
+        name="Interface1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="0dbe5a79-6e5b-428e-b27e-895d8052b9f6"
+        name="Enumeration2"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e2d240f2-23aa-4ef5-9515-332fb5fe412e"
+        name="Class2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7822a3e0-d5f1-48da-853a-d202a4d930b4"
+        name="Class3"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="ec35e2e1-0da8-484b-8fad-d193b826f984"
+        name="Interface2"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2bf6816a-3d39-44a4-8e0c-0f84fc22f84f"
+        LastKnownName="Package2"
+        LastKnownLocation="Package_1346.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9f938bdb-733c-4b1b-8ffc-e1a0a49b4edf"
+        name="gerer"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="0389235d-478c-45f0-bf11-5ed744abc004"
+            isDerived="false"
+            sourceEndRoleName="gerer"
+            targetEndRoleName="document"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="094abc0a-8a79-4c3e-a50d-cbc9e8a427f0"
+              LastKnownName="document"
+              LastKnownLocation="cas_mediatheque.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="242d7eee-6285-4f61-aa83-0fb6a3dee438"
+                  name="gerer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8a438b06-ab5e-4999-9e94-f0b8ba8e1ff7"
+                  name="document"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1955a7ef-ed36-4aef-ad32-3f973f51fe10"
+        name="emprunter"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="92b99fd0-6b64-4aa0-8c82-f2a5c2e64f20"
+            isDerived="false"
+            sourceEndRoleName="emprunter"
+            targetEndRoleName="document"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="094abc0a-8a79-4c3e-a50d-cbc9e8a427f0"
+              LastKnownName="document"
+              LastKnownLocation="cas_mediatheque.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="00176690-c1d4-4dad-be81-da3dc2f4f606"
+                  name="emprunter"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1d2a7818-1fb8-47f0-9918-ed53a98b6029"
+                  name="document"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="3d3749fa-9b20-4793-a5e6-b38e522171e6"
+        name="Interface3"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="10a913c6-8151-4a68-9dda-c0253933f23f"
+        name="emprunt"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="decc6c8b-8ed1-45fe-b3d3-6d7de2db006e"
+            isDerived="false"
+            sourceEndRoleName="emprunt"
+            targetEndRoleName="document"
+            isLeaf="false"
+            name="contenir"
+            isAbstract="false">
+            <classMoniker
+              Id="094abc0a-8a79-4c3e-a50d-cbc9e8a427f0"
+              LastKnownName="document"
+              LastKnownLocation="cas_mediatheque.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8596c094-8e54-4c2e-8367-e9e032396a39"
+                  name="emprunt"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="330bfe55-a01e-4597-985b-e695ed9ae1fa"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="dd3b1a0b-6934-465e-bfbb-4cb9ac135861"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d6204d96-0c75-45f3-b02a-a974192e5064"
+                  name="document"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="47415df7-2290-4a42-aec6-9bdab3bc64ba"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="9f8f1b69-5c79-4568-95c4-2cf9534e9ffe"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="1f8e1fcd-75ff-4d0f-86e7-6fa6e386b969"
+            name="dateDebut"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="b600b745-d924-4adb-a5f4-dc7c0a90191e"
+            name="DateFin"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="805cc0a0-949b-470f-a0b6-0f495af892cd" name="cylce_de_vie_d_un_doc" linkedPackageId="1c21a52d-c3ac-467c-bc64-4e421ea3adee" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="e4040d2a-1762-457f-9eb5-dee684d42a13">
+      <profileInstance Id="799f0acb-a3d4-41a6-b1fc-965ad0711a5d" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e2536fcb-0c3e-4fdf-9fa7-b1a353eaa855">
+      <profileInstance Id="c8aac393-9e27-4e67-9f6c-3c598237d5ee" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="2f3b7023-338e-4d1c-9a65-ef6aa21527cc" name="cylce_de_vie_d_un_doc" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="d3ecc4a6-c9b1-4c94-a248-e88916674842" />
+        <nodes>
+          <initialNode Id="6e88eecb-188d-45ec-902c-6bb4fdbaa263" name="Initial1" isLeaf="false">
+            <elementDefinition Id="35c70bad-ecbb-48e4-a232-c56364511d0e" />
+            <flowNodeTargets>
+              <controlFlow Id="1db99deb-9258-499c-9be1-f153f8554452" isLeaf="false">
+                <opaqueActionMoniker Id="d2ee9ffa-739a-4f1f-a1fd-6ddc38147056" LastKnownName="achat du document" />
+                <elementDefinition Id="a9aa33ba-e9a0-4678-b253-c0170cd0ee3a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="d2ee9ffa-739a-4f1f-a1fd-6ddc38147056" name="achat du document" isLeaf="false">
+            <elementDefinition Id="a33df28a-53ad-4d90-9a09-bb83b9e3b0e6" />
+            <flowNodeTargets>
+              <controlFlow Id="0b1aa957-bd2d-489f-8621-85230b274698" isLeaf="false">
+                <opaqueActionMoniker Id="51077bbe-5f90-4905-b58b-13ec457920fd" LastKnownName="document mis en rayon et numerote" />
+                <elementDefinition Id="8615a51d-9c59-45d7-a668-48d066ff057b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="51077bbe-5f90-4905-b58b-13ec457920fd" name="document mis en rayon et numerote" isLeaf="false">
+            <elementDefinition Id="3ab1f90f-d05e-4e66-b680-3eff39c2aaa7" />
+            <objectFlowTargets>
+              <objectFlow Id="6ffc1b6e-c923-489b-891d-b40854930d66" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="7460fddb-dd07-458f-a717-ccb0a6e6fe84" LastKnownName="document emprunte" />
+                <elementDefinition Id="a0193f06-6ad3-4b0d-b042-b9890ee2a250" />
+              </objectFlow>
+              <objectFlow Id="901be72e-92ec-4280-9c88-5f4d6922a10b" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="9604cae8-3d23-4a27-899a-42565c80bfc7" LastKnownName="document perdu" />
+                <elementDefinition Id="deb5b724-5122-455a-b8db-8617d1192732" />
+              </objectFlow>
+              <objectFlow Id="271f452b-a994-4437-ba15-a0c162d1b372" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="a7e4e3ed-3229-4164-a34f-1f488f5919c0" LastKnownName="document volé" />
+                <elementDefinition Id="77b09e47-5a07-41ee-8f42-a40dd34c4dba" />
+              </objectFlow>
+            </objectFlowTargets>
+          </opaqueAction>
+          <opaqueAction Id="48316e58-6f19-4277-8e84-b946aa975415" name="retour a la bibliotheque" isLeaf="false">
+            <elementDefinition Id="bcd98dc7-e949-498d-af3c-289e30b99c0a" />
+            <flowNodeTargets>
+              <controlFlow Id="df07e1e9-9127-4570-b6f9-92a25a27c995" isLeaf="false">
+                <activityFinalNodeMoniker Id="d3642541-c272-4f96-a8df-579758c568a4" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="ff436afb-6d4a-49c0-b5e6-056437a08ecd" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="d3642541-c272-4f96-a8df-579758c568a4" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="c3eda0b0-32d3-4ca0-a3c4-a5ae2d1ae3c8" />
+          </activityFinalNode>
+          <objectNode Id="9604cae8-3d23-4a27-899a-42565c80bfc7" name="document perdu" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="599675e4-74e9-4bd4-aac4-ff8ab3e96cd0" />
+            <upperBound>
+              <literalInteger Id="92133e3e-3029-4da7-95ff-009f9f991cd7" name="2147483647" value="2147483647">
+                <elementDefinition Id="2d93ab03-dfa7-4689-b3a7-67db70be024a" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="a7e4e3ed-3229-4164-a34f-1f488f5919c0" name="document volé" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="6fd0aa96-68b4-463d-a05d-195d9527d688" />
+            <upperBound>
+              <literalInteger Id="5c337a07-593c-4109-b6d2-90f8c4437d0b" name="2147483647" value="2147483647">
+                <elementDefinition Id="987147fd-3137-4edb-9abd-3a657ad1bcc1" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="7460fddb-dd07-458f-a717-ccb0a6e6fe84" name="document emprunte" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="8370315b-9587-4efa-aad4-2d21ad02dfa0" />
+            <objectFlowTargets>
+              <objectFlow Id="598dc715-e372-4fd4-b198-604f068f11b9" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <opaqueActionMoniker Id="48316e58-6f19-4277-8e84-b946aa975415" LastKnownName="retour a la bibliotheque" />
+                <elementDefinition Id="7d86dcac-3833-4bec-9e06-8515ff6b6d4a" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger Id="0620da58-65ed-4a0e-8588-abb6b3598a0a" name="2147483647" value="2147483647">
+                <elementDefinition Id="c2269d5d-c63d-412a-905c-39e4d597c2d5" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="1c21a52d-c3ac-467c-bc64-4e421ea3adee" name="cas_mediatheque">
+    <elementDefinition Id="36e76743-603b-4496-9a33-8d6e23aa7855" />
+  </package>
+</activityRootModel>

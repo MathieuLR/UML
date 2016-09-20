@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="10e36b6e-8612-4655-9584-ef042c717261" name="UMLUseCaseDiagram1" linkedPackageId="f4d0071c-86aa-45ac-adca-19d3d4ebe738" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="4525e1e2-73c1-4e26-804b-de64b52fc843">
+      <profileInstance Id="2c894baa-3866-445d-b6d5-e0461b13037f" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="2a2d17c1-1309-40cc-be93-535fb881a244">
+      <profileInstance Id="f6a63048-0d7f-4f25-9f1e-ea9112bf94a5" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="f96f4468-2f22-4bbc-9efd-90fc65be6069" name="personnel de la bibliotheque" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="040f1065-7bdb-4ab2-8ea0-be546c5844a6" />
+        <targetEnds>
+          <association Id="7714e1f2-580e-4c97-835c-68aa16aa0478" isDerived="false" sourceEndRoleName="personnel de la bibliotheque" targetEndRoleName="enregistrer un nouveau document" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="393f228c-dbfe-442c-a386-ff4e0dc17617" LastKnownName="enregistrer un nouveau document" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="57885a87-2114-4b5f-b7ae-33fd7cc96ee5" name="personnel de la bibliotheque" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="484bd313-bdf4-437b-8412-fb826e0fb624" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2c6eb6b9-b54e-4038-80cc-5a947a94efd9" name="enregistrer un nouveau document" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="32e4ff92-263b-4fac-bb47-f478972d3544" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="91d24629-f5af-47f2-8c3b-d0957845f83f" />
+          </association>
+          <association Id="1508b708-1eb5-48e6-a040-5f1a1cb861cf" isDerived="false" sourceEndRoleName="personnel de la bibliotheque" targetEndRoleName="enregistrer un emprunt" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="69f1c450-94b9-40cb-a2ec-345c6d3a3aef" LastKnownName="enregistrer un emprunt" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="58859abc-22bb-4aa5-a308-77b505cb90bf" name="personnel de la bibliotheque" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8631a09c-a9d2-4aef-835b-60c8c6e77ac2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="832e6aea-cd1f-4e53-85ef-a7a97d35045f" name="enregistrer un emprunt" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="21aa638a-ebad-4ce8-8afc-784c5b3d0088" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2f4b81be-702b-42ed-908a-9dead09be2b5" />
+          </association>
+          <association Id="90e92856-f6a1-4299-aa0b-ef255c62699c" isDerived="false" sourceEndRoleName="personnel de la bibliotheque" targetEndRoleName="effectue les relances" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a0b0e939-0434-426b-a784-e2adf841f0ab" LastKnownName="effectue les relances" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9d3e8a0a-f598-4b91-80cb-9c582890a9d9" name="personnel de la bibliotheque" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="200d7fb3-3aab-4d80-b032-3e50a58cfd95" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="17444442-cee0-457a-81df-a0a9eec7c71c" name="effectue les relances" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="52fbcaa2-b17d-43ae-82b9-4c55441bac83" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fbb6d624-e4ab-4c62-b71a-d0680711a6ea" />
+          </association>
+          <association Id="955819f0-21d5-4b10-9669-f0d012801cc0" isDerived="false" sourceEndRoleName="personnel de la bibliotheque" targetEndRoleName="agir sur fiche lecteur" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d1e4bdc2-9c6e-458e-9015-61237623497f" LastKnownName="agir sur fiche lecteur" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b3bdad62-b7d3-49fe-8ff9-5cd6112ff036" name="personnel de la bibliotheque" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b40723cb-93ac-4143-a058-a14fd0cc5687" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="de152d6c-f8ad-42a2-bf07-e5e0b34f2740" name="agir sur fiche lecteur" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="060e7bf9-a63e-4efd-b359-fbf96a86e5c1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4815308a-ef89-495f-a191-a58f0339fe50" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f9a0298f-95f2-4b4a-993c-a978e5890b28" name="usager" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b44c04d8-4c30-450e-bca6-5c20dbb13dd0" />
+        <targetEnds>
+          <association Id="95bd85f1-f5a1-4e78-9d2d-76f4fc103bd8" isDerived="false" sourceEndRoleName="usager" targetEndRoleName="consulter la liste des documents" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="da2db4b0-b634-4df0-9dd3-9ffa56043953" LastKnownName="consulter la liste des documents" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b0b868bc-2c70-40b4-a317-b642567ce3b9" name="usager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="586d903b-3911-4ec8-a88f-5ee5c28f2b05" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="12aac4b9-44ed-4645-b230-602d51258656" name="consulter la liste des documents" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="85b05618-56b5-4da5-8b40-a1c2afcd60c0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1491ba57-02f9-49df-8c20-6d1c0c5ef5fb" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="e3440c83-e0c2-4e39-ae0e-727ff48bebb8" name="benevoles" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2f6af5d0-aeb4-4ed7-acf2-14983c74cfbf" />
+        <targetEnds>
+          <association Id="92098fd4-4721-468c-92da-b0055314ff08" isDerived="false" sourceEndRoleName="benevoles" targetEndRoleName="enregistrer un emprunt" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="69f1c450-94b9-40cb-a2ec-345c6d3a3aef" LastKnownName="enregistrer un emprunt" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8ec2dfa5-d848-4abb-b092-1d6313f3d3c4" name="benevoles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2898a279-362c-4530-9bc4-dad8a052bde5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d9080dfd-0037-470c-acd8-900a8ee7e87d" name="enregistrer un emprunt" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b3bd21c7-04d4-4cce-8907-369ecc54b24e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="82a5ac92-ac08-4b3b-9b99-cf1c0f1cfe1e" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="69f1c450-94b9-40cb-a2ec-345c6d3a3aef" name="enregistrer un emprunt" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3bb7099d-aa10-41cc-bdb2-7ae9b6382ba7" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="da2db4b0-b634-4df0-9dd3-9ffa56043953" name="consulter la liste des documents" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="087a8b2a-0111-4927-99ab-bbc07bb37ace" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="393f228c-dbfe-442c-a386-ff4e0dc17617" name="enregistrer un nouveau document" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="98a1a91b-c9dc-47b1-aa4e-ad26922aaaed" />
+        <suppliersInternal>
+          <dependency Id="746e9544-7295-44a5-b7bd-31d1208e728c">
+            <useCaseMoniker Id="79b03e87-244c-4fc6-890e-32e081be6711" LastKnownName="classement du nouveau document" />
+            <elementDefinition Id="26e74404-a503-473a-9215-a54613d9ccf6" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="79b03e87-244c-4fc6-890e-32e081be6711" name="classement du nouveau document" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="61391a8d-c55f-41cf-a300-e643c179019f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a0b0e939-0434-426b-a784-e2adf841f0ab" name="effectue les relances" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="55dfa36b-a19e-4785-807e-60dbc76d440e" />
+        <suppliersInternal>
+          <dependency Id="ba4437d2-ebf0-40d0-93b4-f19a6eb3ca05">
+            <useCaseMoniker Id="69f1c450-94b9-40cb-a2ec-345c6d3a3aef" LastKnownName="enregistrer un emprunt" />
+            <elementDefinition Id="84a963e2-6c81-4497-a209-f87843bf7c78" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d1e4bdc2-9c6e-458e-9015-61237623497f" name="agir sur fiche lecteur" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e02251a3-6f27-4a7c-ad83-0a27c8016f63" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="f4d0071c-86aa-45ac-adca-19d3d4ebe738" name="cas_mediatheque">
+    <elementDefinition Id="36e76743-603b-4496-9a33-8d6e23aa7855" />
+  </package>
+</useCaseModelRoot>
